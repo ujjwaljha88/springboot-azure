@@ -12,8 +12,10 @@ public class SpringbootAzureApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootAzureApplication.class, args);
 	}
+	
 	@GetMapping("getmessage")
 	public String getMessage () {
-		return "Congrats! Ujjwal SpringBoot Azure Deployment Success";
+		return "Congrats Ujjwal! SpringBoot Azure Deployment Success 1";
 	}
 }
+               
